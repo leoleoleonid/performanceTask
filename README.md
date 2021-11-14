@@ -9,3 +9,7 @@ Total time: 12608ms.
 
 using JSONStream  with concurrency = 2
 Total time: 64950ms
+
+using workerThreads with 2 queues (1 for reading and one for parsing)
+with concurrency = 2 for both
+Total time: 24764ms.
